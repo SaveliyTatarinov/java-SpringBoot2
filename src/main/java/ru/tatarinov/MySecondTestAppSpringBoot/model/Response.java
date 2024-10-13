@@ -14,9 +14,9 @@ public class Response {
     @NotNull
     private String systemTime;
     @NotNull
-    private String code;
+    private Codes code;
     @NotNull
-    private String errorCode;
+    private ErrorCodes errorCode;
     @NotNull
-    private String errorMessage;
+    private ErrorMessages errorMessage;
 }
